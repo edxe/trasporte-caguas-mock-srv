@@ -26,7 +26,7 @@ router.get('/feed', function (req, res) {
 
 lineReader.on('line', function (line) {
     console.log(lineCount++);
-    lineContent = line;
+    lineContent = JSON.parse(line);
     lineReader.pause();
 });
 
