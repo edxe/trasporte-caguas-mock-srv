@@ -1,0 +1,4 @@
+.idea/
+node_modules/
+gps-server.js
+dist

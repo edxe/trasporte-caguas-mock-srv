@@ -1,0 +1,23 @@
+{
+  "name": "gps-mock-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "edxe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-gzip": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.5",
+    "gulp-shell": "^0.5.2",
+    "gulp-tar": "^1.9.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}
